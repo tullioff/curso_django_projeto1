@@ -155,6 +155,7 @@ h6 {
 
 .recipe-list-item {
     max-width: 64rem;
+    height: fit-content;
 }
 
 .recipe-list-item:hover {
@@ -204,6 +205,10 @@ h6 {
     flex-shrink: 1;
     flex-grow: 1;
     text-align: center;
+}
+
+.preparation-steps {
+    padding: var(--spacing-gutter-medium);
 }
 
 .recipe-footer a {
